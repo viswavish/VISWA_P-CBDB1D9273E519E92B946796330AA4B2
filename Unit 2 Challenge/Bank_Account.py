@@ -22,7 +22,7 @@ class BankAccount:
         print("Account balance for {} (Account #{}):₹{}".format(self.__account_holder_name,self.__account_number,self.__account_balance))
 
 # Create an instance of the BankAccount class
-account = BankAccount(account_number="123456789",account_holder_name= "John Doe",initial_balance=1000)
+account = BankAccount(account_number="123456789",account_holder_name= "viswa",initial_balance=1000)
 
 # Test deposit and withdrawal functionality
 account.display_balance()
